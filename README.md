@@ -29,11 +29,9 @@ Create a `.env` file in the root directory:
 LIBRUS_LOGIN=your_login
 LIBRUS_PASSWORD=your_password
 GOOGLE_CALENDAR_ID=your_calendar_id@group.calendar.google.com
-GOOGLE_SERVICE_ACCOUNT_FILE=path/to/credentials.json
 SYNC_INTERVAL=1h # Optional: Set to run as a daemon (e.g., 30m, 1h, 24h)
-# OR alternatively:
-# GOOGLE_CALENDAR_CLIENT_EMAIL=service-account@project.iam.gserviceaccount.com
-# GOOGLE_CALENDAR_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\n..."
+GOOGLE_CALENDAR_CLIENT_EMAIL=service-account@project.iam.gserviceaccount.com
+GOOGLE_CALENDAR_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\n..."
 ```
 
 ## Running
